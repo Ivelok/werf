@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.6.2](https://github.com/werf/werf/compare/v3.6.1...v3.6.2) (2026-09-29)
+
+
+### Bug Fixes
+
+* **build:** keep deploy keys separate across SSH aliases ([#7945](https://github.com/werf/werf/issues/7945)) ([6ba82d0](https://github.com/werf/werf/commit/6ba82d087d2cd6f464c9d05f62b5cacae8e33ad8))
+* **build:** keep provenance disabled in parallel Dockerfile builds ([#7941](https://github.com/werf/werf/issues/7941)) ([48fbd9e](https://github.com/werf/werf/commit/48fbd9ebd854e499289bca7e53e6c90d2e0f0beb))
+* **build:** rebuild images after renaming git-tracked files ([#7940](https://github.com/werf/werf/issues/7940)) ([8412d4e](https://github.com/werf/werf/commit/8412d4e73b79d09cd02bdee71fd7ee3fbc300e02))
+* **build:** rebuild images when git mappings swap content ([#7947](https://github.com/werf/werf/issues/7947)) ([2b46672](https://github.com/werf/werf/commit/2b46672c35e509a8147bd9f3fd0df9afe8554a70))
+* **build:** reject invalid imports with a scratch base ([#7944](https://github.com/werf/werf/issues/7944)) ([97367c9](https://github.com/werf/werf/commit/97367c93d86f1868b5a4735c55c8ebbc93f91432))
+* **build:** use a tagged Go image in the documentation example ([#7946](https://github.com/werf/werf/issues/7946)) ([8a9d42c](https://github.com/werf/werf/commit/8a9d42c43942bab5f130a5d5f21ef7ec0f4a12c1))
+* **build:** use versioned base images in documentation examples ([#7942](https://github.com/werf/werf/issues/7942)) ([f591663](https://github.com/werf/werf/commit/f59166317f66e3a0e7cacea82a6dd38159bc30ac))
+
 ## [3.6.1](https://github.com/werf/werf/compare/v3.6.0...v3.6.1) (2026-09-27)
 
 
